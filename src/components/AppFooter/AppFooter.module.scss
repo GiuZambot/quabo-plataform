@@ -1,0 +1,52 @@
+.app-footer {
+  background-color: #CDECEB;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info {
+  flex: 3;
+  color: #333;
+  background-color: #f28c82;
+  padding: 32px 46px;
+  border-radius: 0 104px 104px 0;
+}
+
+.footer-title {
+  color: #353535;
+  margin: 0 0 8px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.footer-email {
+  display: block;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.footer-copyright {
+  color: #333;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.linkedin-icon {
+  font-size: 1.5rem;
+  color: #485F80;
+}

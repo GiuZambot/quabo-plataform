@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+  all: unset;
+  background-color: var(--color-neutral-background);
+}
+
+#root {
+  width: 100vw;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #353535
+}

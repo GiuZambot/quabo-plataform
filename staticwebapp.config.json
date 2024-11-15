@@ -1,0 +1,16 @@
+{
+   "routes": [
+      {
+         "route": "/*",
+         "statusCode": 200
+      }
+   ],
+   "responseOverrides": {
+      "404": {
+         "rewrite": "/"
+      }
+   },
+   "navigationFallback": {
+      "rewrite": "/"
+   }
+}

@@ -1,0 +1,20 @@
+{
+  "Home": "Home",
+  "About": "About",
+  "Language": "Language",
+  "Close": "Close",
+  "Save": "Save",
+  "Select the desired language": "Select the desired language",
+  "Logout": "Logout",
+  "Not Found": "Not Fount",
+  "Loading": "Loading",
+  "Oops... It seems this page has been abducted": "Oops... It seems this page has been abducted",
+  "Fly to the main page": "Fly to the main page",
+  "Not found page illustration": "Not found page illustration",
+  "Something went off the planned route": "Something went off the planned route",
+  "unexpected_error": "An unexpected error occurred, try again. If the problem persists, contact us through Getting Help",
+  "Try again": "Try again",
+  "Error page illustration": "Error page illustration",
+  "Access Denied": "Access Denied",
+  "no_permission_description!": "It seems you do not have permission to land here... You tried to access a restricted area of our universe, please check your credentials!"
+}

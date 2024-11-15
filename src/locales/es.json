@@ -1,0 +1,19 @@
+{
+  "Home": "Inicio",
+  "About": "Sobre",
+  "Language": "Idioma",
+  "Close": "Cerrar",
+  "Save": "Guardar",
+  "Select the desired language": "Seleccione el idioma deseado",
+  "Not Found": "No encontrada",
+  "Loading": "Cargando",
+  "Oops... It seems this page has been abducted": "Ups... Parece que esta página ha sido abducida",
+  "fly_to_main_page": "Volar a la página principal",
+  "Something went off the planned route": "Algo salió de la ruta planeada",
+  "unexpected_error": "Ocurrió un error inesperado",
+  "Try again": "Intentar de nuevo",
+  "Error page illustration": "Ilustración de la página de error",
+  "Home page illustration": "Ilustración de la página de inicio",
+  "Access Denied": "Acceso Denegado",
+  "no_permission_description!": "Parece que no tienes permiso para aterrizar aquí... Intentaste acceder a una zona restringida de nuestro universo, ¡por favor, verifica tus credenciales!"
+}

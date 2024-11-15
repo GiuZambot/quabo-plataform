@@ -1,0 +1,11 @@
+{
+  "token": {
+    "colorTextBase": "#353535",
+    "fontSize": 16
+  },
+  "components": {
+    "Typography": {
+      "fontFamilyCode": "'Nunito', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace"
+    }
+  }
+}

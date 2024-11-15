@@ -1,0 +1,19 @@
+{
+  "Home": "Início",
+  "About": "Sobre",
+  "Language": "Idioma",
+  "Logout": "Sair",
+  "Close": "Fechar",
+  "Save": "Salvar",
+  "Select the desired language": "Selecione o idioma desejado",
+  "Not Found": "Não encontrado",
+  "Loading": "Carregando",
+  "Oops... It seems this page has been abducted": "Ops... Parece que essa página foi abduzida",
+  "Fly to the main page": "Voar até a página principal",
+  "Something went off the planned route": "Algo saiu da rota planejada",
+  "unexpected_error": "Ocorreu um erro inesperado, tente novamente, se o problema persistir nos contacte pelo Getting Help",
+  "Try again": "Tentar novamente",
+  "Error page illustration": "Ilustração da página de erro",
+  "Access Denied": "Acesso Negado",
+  "no_permission_description!": "Parece que você não tem permissão para pousar aqui... Você tentou acessar uma área restrita do nosso universo, por favor, verifique as suas credenciais!"
+}

@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "import"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "indent": ["error", 2], // Tab width de 2 espaços
+    "semi": ["error", "never"], // Sem ponto e vírgula no final
+    "comma-dangle": ["error", "always-multiline"], // Vírgula na última linha de objetos
+    "quotes": ["error", "single"], // Aspas simples
+    "max-len": ["error", { "code": 80 }], // Máximo de 80 colunas
+    "no-unused-vars": ["error", { "args": "after-used", "ignoreRestSiblings": false }], // Variáveis não utilizadas
+    "import/no-unused-modules": ["error", { "unusedExports": true }] // Imports não utilizados
+  }
+
+}

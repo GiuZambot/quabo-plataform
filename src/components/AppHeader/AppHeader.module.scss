@@ -1,0 +1,52 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #CDECEB;
+  padding: 0;
+  height: 104px;
+  line-height: 104px;
+  border-bottom: 2px solid #808080;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #2d4b73;
+  font-weight: bold;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  background-color: #ECCC87;
+  padding: 0px 10vw 0px 23px;
+  border-radius: 104px 0 0 104px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  background-color: #FEFEFE;
+  .avatar-icon {
+    font-size: 28px;
+    color: #353535;
+  }
+}
+
+
+.user-name {
+  margin-left: 8px;
+  font-size: 1rem; /* Ajuste para correspondência com o Figma */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px; /* Controla a largura máxima do nome */
+}

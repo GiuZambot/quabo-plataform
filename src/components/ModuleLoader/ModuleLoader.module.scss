@@ -1,0 +1,5 @@
+.iframe {
+  width: 100%;
+  height: calc(100vh - var(--header-height) - var(--footer-height) - 6px);
+  border: none;
+}
