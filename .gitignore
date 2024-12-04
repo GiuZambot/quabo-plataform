@@ -75,3 +75,4 @@ test-report.xml*
 
 # testing
 /coverage
+.vercel

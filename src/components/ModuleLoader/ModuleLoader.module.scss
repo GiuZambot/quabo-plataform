@@ -1,5 +1,8 @@
 .iframe {
+  margin: 0;
+  padding: 0;
+  display: block;
   width: 100%;
-  height: calc(100vh - var(--header-height) - var(--footer-height) - 6px);
+  //min-height: calc(100vh - var(--header-height) - var(--footer-height));
   border: none;
 }

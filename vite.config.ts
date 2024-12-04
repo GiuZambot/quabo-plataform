@@ -1,7 +1,7 @@
 import react from '@vitejs/plugin-react-swc'
+import fs from 'fs'
 import path from 'path'
 import { defineConfig, ViteDevServer } from 'vite'
-import mkcert from 'vite-plugin-mkcert'
 import vitePluginSingleSpa from 'vite-plugin-single-spa'
 import tsconfig from './tsconfig.aliases.json'
 
@@ -51,7 +51,6 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [
       react(),
-      mkcert(),
       vitePluginSingleSpa({
         type: 'root',
         imo: '3.1.1',
@@ -62,10 +61,10 @@ export default defineConfig(({ mode }) => {
         },
       }),
       !isProduction &&
-      customWatcher({
-        //set the directory to watch
-        filePaths: ['../Quabo-Verbete/dist'],
-      }),
+        customWatcher({
+          //set the directory to watch
+          filePaths: ['../Quabo-Verbete/dist'],
+        }),
     ].filter(Boolean),
     build: {
       terserOptions: {
@@ -89,6 +88,21 @@ export default defineConfig(({ mode }) => {
     },
     resolve: {
       alias,
+    },
+    server: {
+      port: 3000,
+      host: 'localhost',
+      https: {
+        key: fs.readFileSync(path.resolve(__dirname, './localhost-key.pem')),
+        cert: fs.readFileSync(path.resolve(__dirname, './localhost.pem')),
+      },
+      proxy: {
+        '/api': {
+          target: 'http://localhost:3001',
+          changeOrigin: true,
+          secure: false,
+        },
+      },
     },
   }
 })

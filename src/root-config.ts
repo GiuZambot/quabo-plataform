@@ -54,6 +54,15 @@ registerApplication({
   },
 })
 
+registerApplication({
+  name: '@verbete/frontend',
+  app: () => System.import('http://localhost:3000/frontend/verbete.js'), // URL servida pelo backend
+  activeWhen: ['/games/verbete'],
+  customProps: {
+    domElementGetter: () => document.getElementById('mfe-container'),
+  },
+})
+
 start({
   urlRerouteOnly: true,
 })

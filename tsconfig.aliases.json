@@ -7,7 +7,9 @@
       "@pages": ["pages/index.ts"],
       "@pages/*": ["pages/*"],
       "@shared": ["shared/index.ts"],
-      "@shared/*": ["shared/*"]
+      "@shared/*": ["shared/*"],
+      "@services/*": ["services/*"],
+      "@hooks/*": ["hooks/*"]
     }
   }
 }

@@ -13,6 +13,7 @@ const AppLayout = () => {
   const localStorageLang = localStorage.getItem('i18nextLng')
   const initialLang = localStorageLang ?? 'pt-BR'
   const [languageSelected, setLanguageSelected] = useState(initialLang)
+  const isInIframe = window.self !== window.top
 
   const handleCloseDrawer = () => {
     setOpenLanguageDrawer(false)
@@ -29,7 +30,7 @@ const AppLayout = () => {
 
   return (
     <>
-      <Layout className="main-layout">
+      <Layout className={`main-layout${isInIframe ? ' iframeMode' : ''}`}>
         <AppHeader />
         <Content className="content">
           <Outlet />

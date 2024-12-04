@@ -1,5 +1,5 @@
 {
   "imports": {
-    "@test": ""
+    "@test": "https://localhost:5173/"
   }
 }

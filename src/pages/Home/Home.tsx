@@ -1,3 +1,4 @@
+import { GamesList } from '@components'
 import { useTranslation } from 'react-i18next'
 import styles from './Home.module.scss'
 
@@ -14,8 +15,7 @@ const Home = () => {
     <div className="page-container">
       <div className={styles['home-content']}>
         <div className={styles['text-content']}>
-          <h1>{t('Welcome to Quabo')}</h1>
-          <p>{t('Home')}</p>
+          <GamesList />
         </div>
       </div>
     </div>

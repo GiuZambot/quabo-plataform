@@ -6,7 +6,8 @@ body {
 }
 
 #root {
-  width: 100vw;
+  --header-height: 104px;
+  --footer-height: 161px;
 }
 
 .main-layout {
@@ -16,10 +17,15 @@ body {
 }
 
 .content {
-  flex-grow: 1;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #353535
+}
+
+.iframeMode header,
+.iframeMode footer {
+  display: none;
 }

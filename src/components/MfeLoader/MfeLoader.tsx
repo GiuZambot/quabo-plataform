@@ -1,4 +1,7 @@
-// default container for sspa mfe
 export const MfeLoader = () => {
-  return <div id="mfe-container" data-testid="mfe-container"></div>
+  return (
+    <div id="mfe-container" data-testid="mfe-container">
+      Game MFE não encontrado
+    </div>
+  )
 }
